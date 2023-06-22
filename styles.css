@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
@@ -9,7 +9,7 @@
     color: #FFF;
 }
 
-header{
+header {
     background: #010101;
     padding-top: 3.0rem;
     display: flex;
@@ -17,22 +17,22 @@ header{
     justify-content: center;
 }
 
-body{
+body {
     background-color: #161616;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-main{
-    padding: 0 ;
+main {
+    padding: 0;
 }
 
-.logo{
+.logo {
     display: flex;
     color: white;
     color: #FFF;
@@ -42,11 +42,11 @@ main{
     align-items: center;
 }
 
-.logo p{
+.logo p {
     width: 300px;
 }
 
-.links ul{
+.links ul {
     display: flex;
     gap: 2.19rem;
     color: #FFF;
@@ -55,12 +55,12 @@ main{
     font-weight: 600;
 }
 
-.links ul li a{
+.links ul li a {
     color: #FFF;
     text-transform: uppercase;
 }
 
-.apresentacao{
+.apresentacao {
     padding: 133px 0 21px 0;
     display: flex;
     align-items: center;
@@ -70,19 +70,19 @@ main{
     font-size: 2rem;
 }
 
-.apresentacao h1{
+.apresentacao h1 {
     font-weight: 200;
     text-shadow: 0px 4px 50px rgb(255, 215, 16);
     width: 800px;
 }
 
-.apresentacao span{
+.apresentacao span {
     color: rgb(161, 137, 0);
     text-shadow: 0px 4px 50px rgba(255, 217, 16, 0.52);
     text-decoration: underline;
 }
 
-.buttons{
+.buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 45px;
@@ -91,7 +91,7 @@ main{
     justify-content: center;
 }
 
-#saibamais{
+#saibamais {
     cursor: pointer;
     border-radius: 40px;
     background: #D9D9D9;
@@ -102,11 +102,11 @@ main{
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 32px;
-    font-weight: 600;   
+    font-weight: 600;
     text-transform: uppercase;
 }
 
-#contato{
+#contato {
     cursor: pointer;
     background-color: transparent;
     padding: 0 54px;
@@ -117,17 +117,18 @@ main{
     color: #D9D9D9;
     text-align: center;
     text-shadow: 0px 4px 17px rgba(125, 125, 125, 0.49);
-    font-size: 36px;    
+    font-size: 36px;
     text-transform: uppercase;
     font-weight: 600;
 }
 
-section{
+section {
     display: flex;
     justify-content: center;
     padding: 150px 0 150px 0;
 }
-#skills{
+
+#skills {
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -135,7 +136,7 @@ section{
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     gap: 9px;
     display: flex;
     flex-direction: column;
@@ -159,35 +160,35 @@ section{
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.419);
 }
 
-.card p{
+.card p {
     padding: 0 20px;
     text-align: center;
 }
 
-.card:hover{
+.card:hover {
     background-color: #1b1b1b;
 }
 
 /* ------------------------------------------- */
 
-hr{
+hr {
     margin: 0 100px;
 }
 
-article{
+article {
     padding: 135px 0;
     display: flex;
     justify-content: center;
 }
 
-#content{
+#content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#titlehead{
+#titlehead {
     color: #D9D9D9;
     text-align: center;
     text-shadow: 0px 4px 54px rgba(255, 217, 16, 0.52);
@@ -197,16 +198,16 @@ article{
     padding-bottom: 100px;
 }
 
-.projetos{
+.projetos {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 90%;
     gap: 20px;
-    
+
 }
 
-.projeto{
+.projeto {
     padding: 15px 0;
     border-radius: 25px;
     display: flex;
@@ -229,7 +230,7 @@ article{
     cursor: pointer;
 }
 
-.projeto a{
+.projeto a {
     width: 100%;
     padding: 12px 0;
     flex-shrink: 0;
@@ -246,25 +247,25 @@ article{
     text-align: center;
 }
 
-.projeto img:hover{
+.projeto img:hover {
     filter: brightness(1);
 }
 
-.projeto .desktop-img{
+.projeto .desktop-img {
     width: 560px;
 }
 
-.projeto .mobile-app{
+.projeto .mobile-app {
     width: 300px;
 }
 
-#contatos ul{
+#contatos ul {
     display: flex;
     flex-direction: row;
     gap: 112px;
 }
 
-#contatos ul li{
+#contatos ul li {
     transition: .3s ease-in-out;
     -webkit-transition: .3s ease-in-out;
     -moz-transition: .3s ease-in-out;
@@ -272,7 +273,7 @@ article{
     -o-transition: .3s ease-in-out;
 }
 
-#contatos ul li:hover{
+#contatos ul li:hover {
     transform: scale(1.2) rotate(5deg);
     -webkit-transform: scale(1.2) rotate(5deg);
     -moz-transform: scale(1.2) rotate(5deg);
@@ -280,73 +281,82 @@ article{
     -o-transform: scale(1.2) rotate(5deg);
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
-    background-color: #0B0B0B;;
+    background-color: #0B0B0B;
+    ;
 }
 
-footer p{
+footer p {
     padding: 69px;
     text-align: center;
 }
 
 /* Making Responsive */
 
-@media (max-width: 576px){
-    header nav .links{
+@media (max-width: 576px) {
+    header nav .links {
         visibility: hidden;
-        
+
     }
-    header nav{
+
+    header nav {
         align-items: center;
     }
-    .apresentacao h1{
+
+    .apresentacao h1 {
         font-size: 2rem;
         width: 300px;
         font-weight: 400;
         margin-bottom: 50px;
     }
-    #contatos ul{
+
+    #contatos ul {
         gap: 30px;
     }
 
-    #contatos ul li a img{
+    #contatos ul li a img {
         width: 50px;
     }
 
-    #titlehead{
+    #titlehead {
         font-size: 40px;
     }
-    .projeto .desktop-img{
+
+    .projeto .desktop-img {
         width: 380px;
     }
-    .buttons{
+
+    .buttons {
         gap: 30px;
     }
 }
 
-@media (min-width: 576px) and (max-width: 768px){
-    .logo p{
+@media (min-width: 576px) and (max-width: 768px) {
+    .logo p {
         font-size: 30px;
     }
-    .apresentacao h1{
+
+    .apresentacao h1 {
         font-size: 2.8rem;
         width: 600px;
     }
-    #contatos ul{
+
+    #contatos ul {
         gap: 50px;
 
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px){
-  
-    .apresentacao h1{
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .apresentacao h1 {
         font-size: 3.5rem;
         width: 800px;
     }
-    #contatos ul{
+
+    #contatos ul {
         gap: 50px;
 
     }
