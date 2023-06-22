@@ -308,7 +308,11 @@ footer p{
         margin-bottom: 50px;
     }
     #contatos ul{
-        flex-direction: column;
+        gap: 30px;
+    }
+
+    #contatos ul li a img{
+        width: 50px;
     }
 
     #titlehead{
@@ -318,7 +322,6 @@ footer p{
         width: 380px;
     }
     .buttons{
-
         gap: 30px;
     }
 }
