@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <title>Lucas Bettiol | Socials</title>
+</head>
+<style>
+    #conteudo-socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        text-align: center;
+        padding: 3rem 2.5rem;
+        border-radius: 20px;
+        background: rgb(131, 58, 180);
+        background: linear-gradient(338deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+        box-shadow: 0 1.2rem 4rem rgb(131, 58, 180, 0.4);
+    }
+
+    .socials ul li {
+        padding: 0.95rem 4.5rem;
+        margin: 1.1rem;
+        border: 2px solid #d6d6d6;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .2s ease-in-out;
+    }
+
+    .socials ul li:hover p{
+        color: black;
+        transform: scale(1.2);
+    }
+
+    .socials ul li:hover img{
+        filter: brightness(0);
+        transform: scale(1.2);
+    }
+
+    .socials ul li img, p{
+        transition: .2s ease-in-out;
+        margin: 0 0.5rem;
+        
+    }
+
+    .socials ul li:hover{
+        background-color: #d6d6d6;
+    }
+    .socials ul li a {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <main id="conteudo-socials">
+        <div class="container">
+            <div class="topo">
+                <h1>Lucas Bettiol</h1>
+                <h3>Dev Full-Stack</h3>
+            </div>
+            <div class="socials">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/josé-lucas-bettiol-da-costa-25467225b/"><img src="img/socials/LinkedinLogo.png" alt="Linkedin">
+                            <p>Linkedin</p>
+                        </a></li>
+                    <li><a href="https://github.com/LucasBDC/"><img src="img/socials/GithubLogo.png" alt="Github">
+                            <p>Github</p>
+                        </a></li>
+                    <li><a href="mailto:jlucas.bettiol@gmail.com"><img src="img/socials/Envelope.png" alt="E-Mail">
+                            <p>E-Mail</p>
+                        </a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=55092992599494"><img src="img/socials/WhatsappLogo.png" alt="Whatsapp">
+                            <p>Whatsapp</p>
+                        </a></li>
+                    <li><a href="www.instagram.com/lucasbdacosta"><img src="img/socials/InstagramLogo.png" alt="Instagram">
+                            <p>Instagram</p>
+                        </a></li>
+                    <li><a href="index.html"><img src="img/Vector 1.png" width="35px" alt="Portfolio"><p>Portfólio</p></a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
